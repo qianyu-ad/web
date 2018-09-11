@@ -9,6 +9,7 @@ html,body{
 body{
     font-family: "SF Pro Display",Roboto,Noto,Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
     /*background: #f5f6f7;*/
+    font-family: PingFang SC,Hiragino Sans GB,Arial,Microsoft YaHei,Verdana,Roboto,Noto,Helvetica Neue,sans-serif !important;
 }
 ul,li{
     list-style: none;
@@ -78,16 +79,11 @@ ul,li{
 .bd-l{
     width:640px;
     float: left;
-
-
-    /*background-color: #ccc;*/
-    height:1600px;
 }
 
 .bd-r{
     width: 310px;
     float:right;
-
 }
 
 .bd-title{
@@ -148,13 +144,47 @@ ul,li{
     margin-top: 30px;
 }
 
+.ellipsis{
+    width: 100%;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list-item{
+    border-bottom: 1px solid #f4f4f4;
+    padding:15px;
+}
+.list-item:hover{
+    background-color: #fafafa;
+}
+.list-title{
+    margin-bottom:5px;
+}
+.list-title a{
+    color: #222;
+    font-size: 18px;
+    line-height: 24px;
+    height: 24px;
+}
+.list-title a:hover{
+    color:#ca0c16;
+}
+.list-cont{
+    margin-bottom: 4px;
+    font-size: 13px;
+    color: #8a8a8a;
+    line-height: 24px;
 
-
-
-
-
-
-
+}
+.list-info{
+    text-align: right;
+    margin-top: 6px;
+}
+.list-date{
+    font-size: 12px;
+    font-style: italic;
+    color:#444;
+}
 
 
 

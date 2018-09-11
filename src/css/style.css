@@ -68,8 +68,16 @@ ul,li{
 .h-ad{
     height: 91px;
     background-color: #e0e0e0;
+    overflow:hidden;
 }
-
+.ad-728{
+    float: left;
+    width: 728px;
+}
+.ad-272{
+    float: left;
+    width: 272px;
+}
 /*内容*/
 .w-body{
     margin-top: 20px;

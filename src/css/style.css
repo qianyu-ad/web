@@ -113,6 +113,7 @@ ul,li{
 .trw-r{
     width:250px;
     float: right;
+    text-align: right;
 }
 
 .bd-article{

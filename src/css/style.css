@@ -124,7 +124,7 @@ ul,li{
 .ft-cont{
     margin-top: 20px;
     border-top: 1px solid #e0e0e0;
-    padding:20px 0 10px;
+    padding:30px 0 30px;
 }
 
 .f-nav{
@@ -149,8 +149,8 @@ ul,li{
 
 .bd-r-ad{
     background: #e0e0e0;
-    height: 200px;
-    margin-top: 30px;
+    height: 90px;
+    margin-top: 10px;
 }
 
 .ellipsis{
@@ -194,6 +194,56 @@ ul,li{
     font-style: italic;
     color:#444;
 }
+.page-nav{
+    height: 30px;
+    text-align: right;
+    line-height: 30px;
+    margin:26px auto 15px;
+}
+.page-nav .w-nav{
+    color:#2d8cf0;
+    margin:0 8px;
+}
+.page-nav .w-nav:hover{
+    color:#2db7f5;
+}
+
+.w-tj{
+    margin-top: 10px;
+    padding: 10px 0;
+    background-color: #f0f0f0;
+}
+.tj-title{
+    font-size: 14px;
+    color:#666;
+    border-left: 3px solid rgb(255, 128, 142);
+    line-height: 20px;
+    height: 20px;
+    padding-left: 10px;
+}
+.tj-list{
+   margin-top: 10px;
+}
+.tj-item{
+    padding-left: 15px;
+    display: block;
+    width:100%;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.tj-item a{
+    line-height: 24px;
+}
+.tj-item a:hover{
+    color:#2db7f5;
+}
+
+
+
+
+
+
 
 
 
